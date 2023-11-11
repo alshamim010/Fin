@@ -6,6 +6,14 @@ h1,h2,h3,h4,h5,h6{
 font-family: 'Rubik', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1230px;
+}
+
 ul.our_menu{}
 ul.our_menu li{}
 ul.our_menu li a{
@@ -15,7 +23,9 @@ ul.our_menu li a{
     color: #111;
     font-weight: 500;
 }
-ul.our_menu li a:hover{}
+ul.our_menu li a:hover{
+    color: #E83B3E;
+}
 
 /* DropDown menu CSS */
 ul.our_menu li{
@@ -105,4 +115,141 @@ body .btn-primary:hover{
 
 body .btn-primary:hover::after{
     width: 100%;
+}
+
+/* Slider section CSS */
+
+.slider_section{
+    background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.slider_content h1{
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.slider_content h6{
+    color: #E83B3E;
+}
+.slider_content p{
+    font-weight: 400;
+    color: #606060;
+    font-size: 20px
+}
+
+
+.slider_content_wrap{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider_social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider_social ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.slider_social ul li{}
+.slider_social ul li span{
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+}
+.slider_social ul li span::after{
+    content: "";
+    height: 1px;
+    background: #111;
+    width: 35px;
+    position: absolute;
+    right: -45px;
+    top: 13px;
+}
+
+.slider_social ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 14px;
+    color: #111;
+    font-size: 17px;
+}
+
+/* Client Logo CSS */
+
+.logo_section{
+    border-bottom: 1px solid #ddd;
+}
+
+.client_logo{}
+.client_logo ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/* About Section CSS */
+.about_image{
+    position: relative;
+}
+.about_image_text{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    background: url(https://templates.envytheme.com/finix/default/assets/img/about/shape.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_image_text h2{}
+.about_image_text p{}
+
+.about_text{}
+.finix_text{}
+.finix_text h6{
+    color: #e63b3d;
+    font-weight: 400;
+}
+.finix_text h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.finix_text p{
+    color: #606060;
+    font-size: 15px;
+}
+.finix_text strong{
+    color: #606060;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.finix_text ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.finix_text ul li{
+    padding: 5px 0;
+}
+.finix_text ul li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #e63b3d;
+    display: inline-block;
+    margin-right: 10px;
 }
