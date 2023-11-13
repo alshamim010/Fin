@@ -14,6 +14,10 @@ img{
     max-width: 1230px;
 }
 
+.grabg{
+    background-color: #f9fafb;
+}
+
 ul.our_menu{}
 ul.our_menu li{}
 ul.our_menu li a{
@@ -252,4 +256,59 @@ body .btn-primary:hover::after{
     color: #e63b3d;
     display: inline-block;
     margin-right: 10px;
+}
+
+
+
+/* Why_Choose_Us_Section CSS */
+
+.features_items_inner{
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: .5s;
+}
+
+.features_items_inner:hover{
+    transform: translateY(-12px);
+}
+
+.features_items_inner::before{
+    content: "";
+    position: absolute;
+    background: #fdebeb;
+    top: -130px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.features_items_inner_icon{
+    position: relative;
+}
+
+.features_items_inner_icon i{
+    color: #e73c3e;
+    font-size: 30px;
+    background: #fff;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .5s;
+}
+
+.features_items_inner:hover .features_items_inner_icon i{
+    color: #fff;
+    background: #e73c3e;
+}
+
+.last{
+    margin-top: -25px
 }
