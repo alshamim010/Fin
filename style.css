@@ -312,3 +312,74 @@ body .btn-primary:hover::after{
 .last{
     margin-top: -25px
 }
+
+
+/* Apply_Now Section CSS */
+
+.apply_section{}
+.apply_now_left{}
+
+.step_timeline{}
+.step_timeline ul{
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+.step_timeline ul::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 1px;
+    background:#e73c3e;
+    height: calc(100% - 100px)
+}
+
+.step_timeline ul li{
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.step_timeline ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    left: -65px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: #f9fafb;
+    border: 1px solid #e73c3e;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.step_timeline ul li strong{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+.step_timeline ul li p{
+    color: #606060;
+}
+
+.calculate_rate{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+
+.calculate_rate .finix_text{}
+.calculate_rate .finix_text h6{
+    color: #606060;
+}
+
+.calculate_forms input{
+    border: none;
+    border-radius: 0;
+    padding: 13px 15px;
+}
+
+.calculate_forms select{
+    border: none;
+    border-radius: 0;
+    padding: 13px 15px;
+}
