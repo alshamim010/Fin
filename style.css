@@ -262,6 +262,53 @@ body .btn-primary:hover::after{
 
 /* Why_Choose_Us_Section CSS */
 
+.finix_text{
+    position: relative;
+}
+.play_btn{
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    background: #fff;
+    font-size: 60px;
+    display: inline-block;
+    text-align: center;
+    color: #e73a3e;
+    border-radius: 50%;
+    position: absolute;
+    right: 35%;
+    bottom: 50px;
+}
+
+.play_btn::before{
+    content: "";
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e73a3e;
+    border-radius: 50%;
+    animation: btnplay 1.6s ease-out infinite;
+}
+
+@keyframes btnplay{
+    0%,30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+
 .features_items_inner{
     background: #fff;
     padding: 30px;
@@ -313,6 +360,12 @@ body .btn-primary:hover::after{
     margin-top: -25px
 }
 
+
+/* apply_section_up CSS */
+
+.apply_section_up{
+    text-align: center;
+}
 
 /* Apply_Now Section CSS */
 
@@ -382,4 +435,79 @@ body .btn-primary:hover::after{
     border: none;
     border-radius: 0;
     padding: 13px 15px;
+}
+
+/* Call_to_Action CSS */
+
+.call_to_action_bg{
+    background-color: #E73C3E;
+    padding: 50px;
+    border-radius: 6px;
+}
+.call_to_action_bg h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    border-right: 1px solid #F39E9F;
+}
+
+.call_to_action_phone{
+    margin-top: 9px;
+}
+.call_to_action_phone span{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #e73c3e;
+    font-size: 30px;
+    margin-right: 30px;
+}
+.call_to_action_phone a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+
+
+/* our_company_value CSS */
+
+.our_company_value{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.conpany_value_text{}
+.conpany_value_text h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.value_item{}
+.value_item .value_icon{
+    font-size: 50px;
+    color: #e73c3e;
+    margin-right: 25px;
+    margin-top: -8px;
+}
+.value_item .value_text{}
+.value_item .value_text h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.value_item .value_text p{
+    line-height: 1.8;
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.our_company_image {
+    margin-top: 40px;
 }
