@@ -126,6 +126,7 @@ body .btn-primary:hover::after{
 .slider_section{
     background: url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .slider_content h1{
@@ -631,4 +632,130 @@ body .btn-primary:hover::after{
 }
 .testimonial_content p{
     color: #666;
+}
+
+/* Blog Section CSS */
+
+.blog_item{}
+.blog_thumble{}
+.blog_thumble img{
+    max-width: 100%;
+}
+
+.blog_content{
+    padding: 15px 0;
+}
+.blog_content p{
+    color: #e73c3e;
+    font-size: 18px;
+}
+.blog_content h3{
+    margin-bottom: 12px;
+}
+.blog_content h3 a{
+    text-decoration: none;
+    color: #111;
+    font-size: 25px;
+
+}
+.blog_content a{
+    color: #111;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog_content a:hover{
+    letter-spacing: 1.5px;
+    color: #e73c3e;
+}
+
+.blog_content h3 a:hover{
+    letter-spacing: 0;
+    color: #111;
+}
+
+/* Footer Section CSS */
+
+.footer_secton{
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.footer_top{
+    border-bottom: 1px solid #444;
+}
+
+.footer_secton a{
+    color: #fff;
+}
+.footer_widget{}
+.footer_widget img{
+    padding-bottom: 25px;
+}
+.footer_widget h4{
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.footer_widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer_widget ul li{
+    margin: 10px 0;
+}
+.footer_widget ul li a{
+    text-decoration: none;
+    transition: .4s;
+}
+.footer_widget ul li a:hover{
+    letter-spacing: 1.5px;
+    color: #e73a3e;
+}
+
+/* Footer Social CSS */
+
+.widget_social{}
+.widget_social span{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.widget_social ul{
+    display: flex;
+}
+.widget_social ul li{
+    padding: 10px 0;
+    margin: 0 !important;
+}
+.widget_social ul li a{
+    font-size: 18px;
+    padding: 9px 9px;
+}
+
+
+/* Footer Botom CSS */
+.footer_copywrite{}
+.footer_copywrite a{
+    text-decoration: none;
+}
+.footer_copywrite p{
+    margin-bottom: 0;
+}
+
+
+.footer_contact{}
+.footer_contact_item{
+    margin-bottom: 20px;
+}
+.footer_contact_item span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.footer_contact_item span i{}
+.footer_contact_item a{
+    text-decoration: none;
 }
