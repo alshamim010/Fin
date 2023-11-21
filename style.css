@@ -759,3 +759,24 @@ body .btn-primary:hover::after{
 .footer_contact_item a{
     text-decoration: none;
 }
+
+.breadcrumb_section{
+    padding: 120px 0;
+    background-image: url(https://templates.envytheme.com/finix/default/assets/img/page-title/bg.jpg);
+    background-position: center 16%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.breadcrumb_section::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,.6);
+    z-index: -1;
+
+}
